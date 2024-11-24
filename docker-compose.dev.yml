@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - api
+
+networks:
+  api:

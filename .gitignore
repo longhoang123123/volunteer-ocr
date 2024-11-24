@@ -1,0 +1,14 @@
+# editor config
+.idea/
+
+# cache
+__pycache__/
+
+# data
+postgres_data
+
+# credentials
+.env
+.env.dev
+.venv/
+venv/
